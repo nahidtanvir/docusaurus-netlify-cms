@@ -59,3 +59,20 @@ collections:
     fields:
       - { name: title, label: Title, widget: string }
       - { name: slug, label: Folder Name, widget: string }
+  - name: docs_folder_2
+    label: "docs_folder_2"
+    folder: docs
+    identifier_field: title
+    extension: json
+    widget: "list"
+    create: true
+    slug: "{{slug}}/_category_.json"
+    fields:
+      - { name: label, label: Label, widget: string }
+      - { name: position, label: Position, widget: number }
+      - name: link,
+        label: Link,
+        widget: object
+        fields:
+          - { name: type, label: Type, widget: string, default: "generated-index" }
+          - { name: description, label: Description, widget: string, required: false }
