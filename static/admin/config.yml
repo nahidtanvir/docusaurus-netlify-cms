@@ -47,3 +47,4 @@ collections:
       - { name: body, label: Body, widget: markdown }
       - { name: slug, label: Slug, widget: string }
       - { name: sidebar_position, label: Weight, widget: number }
+    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
