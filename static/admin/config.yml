@@ -55,7 +55,7 @@ collections:
     extension: md
     widget: "list"
     create: true
-    slug: "{{slug}}/index.md"
+    slug: "{{slug}}/index"
     fields:
       - { name: title, label: Title, widget: string }
       - { name: slug, label: Folder Name, widget: string }
@@ -66,7 +66,7 @@ collections:
     extension: json
     widget: "list"
     create: true
-    slug: "{{slug}}/_category_.json"
+    slug: "{{label}}/_category_"
     fields:
       - { name: label, label: Label, widget: string }
       - { name: position, label: Position, widget: number }
