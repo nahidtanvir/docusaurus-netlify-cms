@@ -70,8 +70,8 @@ collections:
     fields:
       - { name: label, label: Label, widget: string }
       - { name: position, label: Position, widget: number }
-      - name: link,
-        label: Link,
+      - name: link
+        label: Link
         widget: object
         fields:
           - { name: type, label: Type, widget: string, default: "generated-index" }
