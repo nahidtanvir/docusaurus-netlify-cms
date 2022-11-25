@@ -76,6 +76,7 @@ collections:
         fields:
           - { name: type, label: Type, widget: string, default: "generated-index" }
           - { name: description, label: Description, widget: string, required: false }
+    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
   - name: pages
     label: Pages
     label_singular: 'Page'
