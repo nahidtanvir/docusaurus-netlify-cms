@@ -76,6 +76,9 @@ collections:
         fields:
           - { name: type, label: Type, widget: string, default: "generated-index" }
           - { name: description, label: Description, widget: string, required: false }
+    nested:
+      depth: 100 # max depth to show in the collection tree
+      summary: '{{label}}' # optional summary for a tree node, defaults to the inferred title field
     meta: { path: { widget: string, label: 'Path', index_file: '_category_' } }
   - name: pages
     label: Pages
