@@ -62,7 +62,7 @@ collections:
   - name: docs_folder_2
     label: "docs_folder_2"
     folder: docs
-    identifier_field: title
+    identifier_field: label
     extension: json
     widget: "list"
     create: true
