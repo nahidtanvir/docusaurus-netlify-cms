@@ -9,9 +9,9 @@ public_folder: "/img/" # The src attribute for uploaded media will begin with /i
 
 collections:
   - name: author
-    label: "author"
+    label: "Author"
     folder: author
-    identifier_field: title
+    identifier_field: name
     extension: md
     widget: "list"
     create: true
@@ -21,9 +21,9 @@ collections:
       - { name: title, label: Title, widget: string }
       - { name: url, label: URL, widget: string }
       - { name: image_url, label: Image URL, widget: string }
-      - { name: bio, label: Bio, widget: markdown, optional: true }
+      - { name: bio, label: Bio, widget: markdown, required: false }
   - name: blog
-    label: "blog"
+    label: "Blog"
     folder: blog
     identifier_field: title
     extension: md
