@@ -42,8 +42,8 @@ collections:
         widget: "relation"
         collection: "author"
         search_fields: [ "name", "title" ]
-        value_field: "name"
-        display_fields: [ "name", "title" ]
+        value_field: [ "name", "title", "url", "image_url" ]
+        display_fields: "name"
 #      - label: "Authors"
 #        name: "authors"
 #        widget: "list"
