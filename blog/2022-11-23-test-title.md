@@ -5,7 +5,6 @@ tags:
   - lorem
   - ipsum
 
-[//]: # (authors: [])
 ---
 <!--StartFragment-->
 
