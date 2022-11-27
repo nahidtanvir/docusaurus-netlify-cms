@@ -43,7 +43,7 @@ collections:
         collection: "author"
         search_fields: [ "name", "title" ]
         value_field: "name"
-        display_fields: ["name"]
+        display_fields: [ "name", "title", "url", "image_url" ]
 #      - label: "Authors"
 #        name: "authors"
 #        widget: "list"
