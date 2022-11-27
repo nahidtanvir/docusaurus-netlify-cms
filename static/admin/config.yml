@@ -38,7 +38,7 @@ collections:
         name: "tags"
         widget: "list"
       - label: "Authors"
-        name: "author"
+        name: "authors"
         widget: "relation"
         collection: "author"
         multiple: true
