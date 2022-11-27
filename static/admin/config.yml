@@ -8,6 +8,20 @@ media_folder: "static/img" # Media files will be stored in the repo under static
 public_folder: "/img/" # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
+  - name: author
+    label: "author"
+    folder: author
+    identifier_field: title
+    extension: md
+    widget: "list"
+    create: true
+    slug: "{{url}}"
+    fields:
+      - { name: name, label: Name, widget: string }
+      - { name: title, label: Title, widget: string }
+      - { name: url, label: URL, widget: string }
+      - { name: image_url, label: Image URL, widget: string }
+      - { name: bio, label: Bio, widget: markdown, optional: true }
   - name: blog
     label: "blog"
     folder: blog
@@ -27,7 +41,7 @@ collections:
         name: "authors"
         widget: "list"
         fields:
-          - { name: name, label: Name, widget: string, default: '{{user.name}}' }
+          - { name: name, label: Name, widget: string }
           - { name: title, label: Title, widget: string }
           - { name: url, label: URL, widget: string }
           - { name: image_url, label: Image URL, widget: string }
