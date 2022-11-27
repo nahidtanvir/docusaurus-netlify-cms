@@ -4,7 +4,8 @@ slug: test-slug
 tags:
   - lorem
   - ipsum
-authors: []
+
+[//]: # (authors: [])
 ---
 <!--StartFragment-->
 
