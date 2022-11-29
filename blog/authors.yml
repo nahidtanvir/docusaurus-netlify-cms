@@ -13,24 +13,3 @@ slorber:
   title: Docusaurus maintainer
   url: https://sebastienlorber.com
   image_url: https://github.com/slorber.png
-"{{name}}":
-  name: dsadsadsa
-  title: dasdas
-  url: https://www.netlifycms.org/docs/collection-types/#file-collections
-  image_url: https://static.vecteezy.com/packs/media/vectors/term-bg-1-666de2d9.jpg
-"{{fields.name}}":
-  name: fadfsgh
-  title: hgfhgfhgf
-  url: https://www.netlifycms.org/docs/widgets/#file
-  image_url: https://static.vecteezy.com/packs/media/vectors/term-bg-1-666de2d9.jpg
-authors:
-  - "{{fields.name}}":
-      name: djijdlasjl
-      title: fdafjsdlkjfkl
-      url: kdlak;lwdk
-      image_url: kdkf;lkr;w
-  - "{{fields.name}}":
-      name: djsklajdpoakoksokf;sdkl
-      title: rpokroekwr9jfkse
-      url: wkf2ikflk
-      image_url: fpoeif9kwo,wp,
