@@ -14,7 +14,7 @@ collections:
     extension: yml
     folder: blog
     fields:
-      - name: {{name}}
+      - name: "{{name}}"
         label: Name
         widget: object
         fields:
