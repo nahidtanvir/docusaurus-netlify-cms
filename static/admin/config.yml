@@ -10,18 +10,19 @@ public_folder: "/img/" # The src attribute for uploaded media will begin with /i
 collections:
   - name: authors
     label: Authors
-    format: yml
-    extension: yml
-    folder: blog
-    fields:
-      - name: "{{name}}"
-        label: Name
-        widget: object
+    files:
+      - label: "About Page"
+        name: "about"
+        file: "blog/authors.yml
         fields:
-          - { name: name, label: Name, widget: string }
-          - { name: title, label: Title, widget: string }
-          - { name: url, label: URL, widget: string }
-          - { name: image_url, label: Image URL, widget: string }
+          - name: "{{name}}"
+            label: Author
+            widget: object
+            fields:
+              - { name: name, label: Name, widget: string }
+              - { name: title, label: Title, widget: string }
+              - { name: url, label: URL, widget: string }
+              - { name: image_url, label: Image URL, widget: string }
   - name: blog
     label: "Blog"
     folder: blog
