@@ -15,7 +15,7 @@ collections:
         name: "about"
         file: "blog/authors.yml"
         fields:
-          - name: "{{name}}"
+          - name: "{{fields.name}}"
             label: Author
             widget: object
             fields:
