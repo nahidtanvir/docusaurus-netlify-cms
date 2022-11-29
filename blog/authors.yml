@@ -3,15 +3,18 @@ endi:
   title: Maintainer of Docusaurus
   url: https://github.com/endiliey
   image_url: https://github.com/endiliey.png
-
 yangshun:
   name: Yangshun Tay
   title: Front End Engineer @ Facebook
   url: https://github.com/yangshun
   image_url: https://github.com/yangshun.png
-
 slorber:
   name: Sébastien Lorber
   title: Docusaurus maintainer
   url: https://sebastienlorber.com
   image_url: https://github.com/slorber.png
+"{{name}}":
+  name: dsadsadsa
+  title: dasdas
+  url: https://www.netlifycms.org/docs/collection-types/#file-collections
+  image_url: https://static.vecteezy.com/packs/media/vectors/term-bg-1-666de2d9.jpg
