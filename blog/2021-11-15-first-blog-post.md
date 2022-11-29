@@ -5,6 +5,6 @@ tags:
   - foo
   - bar
 
-author: Nahid Tanvir
+authors: slorber
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat.
