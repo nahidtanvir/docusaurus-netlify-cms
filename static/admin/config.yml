@@ -19,7 +19,7 @@ collections:
             label: Authors
             widget: list
             fields:
-              - name: {{fields.name}}
+              - name: '{{fields.name}}'
                 label: Author
                 widget: object
                 fields:
